@@ -7,7 +7,7 @@ function pasanganTerbesar(num) {
         arr.push(strNum.slice(i, i + 2)) //mengambil 2 karakter dari string lalu di push ke array
         arr.sort(function(value1, value2) { return value2 - value1 }) //dilakukan sorting descending(besar ke kecil)
     }
-    return (arr[0]) //return nilai paling besar
+    return (Number(arr[0])) //return nilai paling besar
 }
 
 // // TEST CASES
